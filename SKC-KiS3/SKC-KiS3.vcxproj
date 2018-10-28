@@ -29,13 +29,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -159,6 +160,35 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SKC-KiS3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Objects\AIZ1_S3.bin" />
+    <None Include="Objects\AIZ2_S3.bin" />
+    <None Include="Objects\CNZ1_S3.bin" />
+    <None Include="Objects\CNZ2_S3.bin" />
+    <None Include="Objects\HCZ1_S3.bin" />
+    <None Include="Objects\HCZ2_S3.bin" />
+    <None Include="Objects\ICZ1_S3.bin" />
+    <None Include="Objects\ICZ2_S3.bin" />
+    <None Include="Objects\LBZ1_S3.bin" />
+    <None Include="Objects\LBZ2_S3.bin" />
+    <None Include="Objects\MGZ1_S3.bin" />
+    <None Include="Objects\MGZ2_S3.bin" />
+    <None Include="Rings\AIZ1_S3.bin" />
+    <None Include="Rings\AIZ2_S3.bin" />
+    <None Include="Rings\CNZ1_S3.bin" />
+    <None Include="Rings\CNZ2_S3.bin" />
+    <None Include="Rings\HCZ1_S3.bin" />
+    <None Include="Rings\HCZ2_S3.bin" />
+    <None Include="Rings\ICZ1_S3.bin" />
+    <None Include="Rings\ICZ2_S3.bin" />
+    <None Include="Rings\LBZ1_S3.bin" />
+    <None Include="Rings\LBZ2_S3.bin" />
+    <None Include="Rings\MGZ1_S3.bin" />
+    <None Include="Rings\MGZ2_S3.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

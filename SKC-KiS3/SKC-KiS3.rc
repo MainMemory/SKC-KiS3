@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Objects
+//
+
+IDR_OBJECTS_AIZ1        Objects                 "Objects\\AIZ1_S3.bin"
+
+IDR_OBJECTS_AIZ2        Objects                 "Objects\\AIZ2_S3.bin"
+
+IDR_OBJECTS_CNZ1        Objects                 "Objects\\CNZ1_S3.bin"
+
+IDR_OBJECTS_CNZ2        Objects                 "Objects\\CNZ2_S3.bin"
+
+IDR_OBJECTS_HCZ1        Objects                 "Objects\\HCZ1_S3.bin"
+
+IDR_OBJECTS_HCZ2        Objects                 "Objects\\HCZ2_S3.bin"
+
+IDR_OBJECTS_ICZ1        Objects                 "Objects\\ICZ1_S3.bin"
+
+IDR_OBJECTS_ICZ2        Objects                 "Objects\\ICZ2_S3.bin"
+
+IDR_OBJECTS_LBZ1        Objects                 "Objects\\LBZ1_S3.bin"
+
+IDR_OBJECTS_LBZ2        Objects                 "Objects\\LBZ2_S3.bin"
+
+IDR_OBJECTS_MGZ1        Objects                 "Objects\\MGZ1_S3.bin"
+
+IDR_OBJECTS_MGZ2        Objects                 "Objects\\MGZ2_S3.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Rings
+//
+
+IDR_RINGS_AIZ1          Rings                   "Rings\\AIZ1_S3.bin"
+
+IDR_RINGS_AIZ2          Rings                   "Rings\\AIZ2_S3.bin"
+
+IDR_RINGS_CNZ1          Rings                   "Rings\\CNZ1_S3.bin"
+
+IDR_RINGS_CNZ2          Rings                   "Rings\\CNZ2_S3.bin"
+
+IDR_RINGS_HCZ1          Rings                   "Rings\\HCZ1_S3.bin"
+
+IDR_RINGS_HCZ2          Rings                   "Rings\\HCZ2_S3.bin"
+
+IDR_RINGS_ICZ1          Rings                   "Rings\\ICZ1_S3.bin"
+
+IDR_RINGS_ICZ2          Rings                   "Rings\\ICZ2_S3.bin"
+
+IDR_RINGS_LBZ1          Rings                   "Rings\\LBZ1_S3.bin"
+
+IDR_RINGS_LBZ2          Rings                   "Rings\\LBZ2_S3.bin"
+
+IDR_RINGS_MGZ1          Rings                   "Rings\\MGZ1_S3.bin"
+
+IDR_RINGS_MGZ2          Rings                   "Rings\\MGZ2_S3.bin"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

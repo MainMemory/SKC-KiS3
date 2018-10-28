@@ -21,6 +21,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +35,84 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SKC-KiS3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Objects\AIZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\AIZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\CNZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\CNZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\HCZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\HCZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\ICZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\ICZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\LBZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\LBZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\MGZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Objects\MGZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\AIZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\AIZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\CNZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\CNZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\HCZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\HCZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\ICZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\ICZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\LBZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\LBZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\MGZ1_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Rings\MGZ2_S3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
